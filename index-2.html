@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="BikeBox Lavação — lavagem, limpeza e cuidados para bicicletas em Joinville/SC.">
+<title>BikeBox Lavação | Joinville</title>
+<style>
+:root{--bg:#070707;--card:#111;--card2:#151515;--gold:#d7a63a;--gold2:#f0c766;--white:#f7f7f7;--muted:#a9a9a9;--line:#282828}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--white);line-height:1.5}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(7,7,7,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:22px;font-weight:950;letter-spacing:1px}.logo span{color:var(--gold)}
+.navlinks{display:flex;gap:24px;font-size:14px;color:#ddd}.navlinks a:hover{color:var(--gold2)}
+.hero{min-height:calc(100vh - 72px);display:flex;align-items:center;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-180px;top:-120px;background:rgba(215,166,58,.12);filter:blur(70px)}
+.hero-content{position:relative;padding:70px 0}
+.badge{display:inline-block;border:1px solid #765b22;color:var(--gold2);padding:8px 14px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:2px}
+h1{font-size:clamp(48px,9vw,92px);line-height:.92;margin:22px 0 20px;max-width:900px}
+h1 span,.gold{color:var(--gold)}
+.hero p{max-width:680px;color:var(--muted);font-size:18px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:10px;font-weight:800;transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.primary{background:var(--gold);color:#111}.secondary{background:#151515;border:1px solid var(--line)}
+section{padding:80px 0}
+.section-head{text-align:center;margin-bottom:34px}.section-head h2{font-size:36px}.section-head p{color:var(--muted);margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:linear-gradient(145deg,var(--card),#0d0d0d);border:1px solid var(--line);border-radius:18px;padding:25px}
+.icon{font-size:30px}.card h3{margin:12px 0 7px;font-size:20px}.card p{color:var(--muted);font-size:14px}
+.price{font-size:25px;font-weight:900;color:var(--gold2);margin-top:17px}
+.price small{font-size:12px;color:var(--muted);font-weight:400}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.info .card strong{color:var(--gold2)}
+.cta{border:1px solid #4e3c18;background:linear-gradient(135deg,#19150d,#0e0e0e);border-radius:22px;padding:42px;text-align:center}
+.cta h2{font-size:34px}.cta p{color:var(--muted);margin:10px auto;max-width:620px}
+.social{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:24px}
+footer{border-top:1px solid var(--line);padding:28px 0;text-align:center;color:var(--muted);font-size:13px}
+.float{position:fixed;right:18px;bottom:18px;z-index:30;background:#25d366;color:#071008;padding:14px 17px;border-radius:999px;font-weight:900;box-shadow:0 8px 30px #000}
+@media(max-width:760px){.navlinks{display:none}.grid,.info{grid-template-columns:1fr}.hero{min-height:auto}.hero-content{padding:85px 0}.hero p{font-size:16px}section{padding:60px 0}.cta{padding:30px 20px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="logo" href="#">BIKE<span>BOX</span> LAVAÇÃO</a>
+    <nav class="navlinks">
+      <a href="#servicos">Serviços</a>
+      <a href="#precos">Preços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-content">
+    <div class="badge">JOINVILLE • SC</div>
+    <h1>Sua bike limpa.<br><span>Seu pedal renovado.</span></h1>
+    <p>Lavagem e cuidados para bicicletas com atenção aos detalhes. Deixe sua bike pronta para o próximo rolê.</p>
+    <div class="buttons">
+      <a class="btn primary" href="https://wa.me/message/TO2YZD6ZSPM4M1" target="_blank" rel="noopener">📲 Agendar pelo WhatsApp</a>
+      <a class="btn secondary" href="https://www.instagram.com/bikebox_lavacao_047?stkn=Y3NkZndjMmJoeDFr" target="_blank" rel="noopener">📸 Instagram</a>
+    </div>
+  </div>
+</section>
+
+<section id="servicos">
+<div class="container">
+  <div class="section-head"><h2>Serviços</h2><p>Escolha o cuidado ideal para sua bicicleta.</p></div>
+  <div class="grid">
+    <article class="card"><div class="icon">🚲</div><h3>Lavagem Básica</h3><p>Limpeza externa, quadro, rodas e componentes acessíveis.</p></article>
+    <article class="card"><div class="icon">✨</div><h3>Lavagem Completa</h3><p>Limpeza detalhada com atenção à transmissão e acabamento.</p></article>
+    <article class="card"><div class="icon">⚙️</div><h3>Limpeza da Transmissão</h3><p>Desengraxe e limpeza de corrente, coroas e cassete.</p></article>
+    <article class="card"><div class="icon">💨</div><h3>Secagem Cuidadosa</h3><p>Remoção de água das áreas acessíveis e acabamento final.</p></article>
+    <article class="card"><div class="icon">🛡️</div><h3>Proteção e Acabamento</h3><p>Produtos adequados para conservação e aparência da bike.</p></article>
+    <article class="card"><div class="icon">🔍</div><h3>Check-up Visual</h3><p>Observação visual de sujeira, peças soltas ou sinais aparentes de desgaste.</p></article>
+  </div>
+</div>
+</section>
+
+<section id="precos">
+<div class="container">
+  <div class="section-head"><h2>Preços</h2><p>Valores iniciais. Bicicletas muito sujas podem exigir orçamento.</p></div>
+  <div class="grid">
+    <article class="card"><h3>Lavagem Básica</h3><p>Limpeza externa + secagem.</p><div class="price">R$ 25</div></article>
+    <article class="card"><h3>Lavagem Completa</h3><p>Limpeza detalhada + transmissão + acabamento.</p><div class="price">R$ 40</div></article>
+    <article class="card"><h3>Lavagem Premium</h3><p>Serviço completo + proteção e acabamento premium.</p><div class="price">R$ 60</div></article>
+  </div>
+</div>
+</section>
+
+<section id="sobre">
+<div class="container">
+  <div class="section-head"><h2>Por que BikeBox?</h2><p>Cuidado, praticidade e atenção aos detalhes.</p></div>
+  <div class="info">
+    <div class="card"><h3>🧽 Limpeza com cuidado</h3><p>O objetivo é limpar sem tratar a bicicleta de forma agressiva. Evitamos direcionar jato de alta pressão diretamente para rolamentos e componentes sensíveis.</p></div>
+    <div class="card"><h3>📍 Atendimento em Joinville</h3><p>Atendimento mediante agendamento. Consulte disponibilidade e o valor para serviços especiais pelo WhatsApp.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="contato">
+<div class="container">
+  <div class="cta">
+    <h2>Deixe sua bike na <span class="gold">BikeBox</span></h2>
+    <p>Agende seu serviço pelo WhatsApp ou acompanhe as novidades no Instagram.</p>
+    <p><strong class="gold">@bikebox_lavacao_047</strong></p>
+    <div class="social">
+      <a class="btn primary" href="https://wa.me/message/TO2YZD6ZSPM4M1" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn secondary" href="https://www.instagram.com/bikebox_lavacao_047?stkn=Y3NkZndjMmJoeDFr" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+
+<a class="float" href="https://wa.me/message/TO2YZD6ZSPM4M1" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">WhatsApp</a>
+
+<footer>© 2026 BikeBox Lavação • Joinville/SC • Todos os direitos reservados.</footer>
+</body>
+</html>
